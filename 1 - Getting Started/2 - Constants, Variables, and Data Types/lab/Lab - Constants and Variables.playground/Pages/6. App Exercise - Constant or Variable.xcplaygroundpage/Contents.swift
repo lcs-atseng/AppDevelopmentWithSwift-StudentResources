@@ -11,11 +11,19 @@
  - Goal number of steps: The user's goal for number of steps to take each day
  - Average heart rate: The user's average heart rate over the last 24 hours
  */
+let Name = "Lisa"
+var Age = 20
+var NumbersOfSteps = 500
+var GoalsOfSteps = 2000
+var AverageHeartRate = 150
 
 
+print(Name)
+print(Age)
+print(NumbersOfSteps, GoalsOfSteps)
+print(AverageHeartRate)
 
-
-
+// Aside from the user's name, the other factors are changable, so I put "var" in front of them.
 /*:
  Now go back and add a line after each constant or variable declaration. On those lines, print a statement explaining why you chose to declare the piece of information as a constant or variable.
  */
